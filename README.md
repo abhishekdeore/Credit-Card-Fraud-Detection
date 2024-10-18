@@ -4,17 +4,7 @@
 This project implements advanced anomaly detection techniques to identify fraudulent credit card transactions. Using machine learning models, specifically Isolation Forest and Local Outlier Factor (LOF), the system detects unusual patterns that may indicate fraudulent activity in credit card usage.
 
 ## Project Structure
-credit-card-fraud-detection/
-│
-├── data/
-│   └── creditcard.csv
-│
-├── notebooks/
-│   ├── 1_EDA.ipynb
-│   └── 2_Preprocessing_and_Model_Comparison.ipynb
-│
-├── requirements.txt
-└── README.md
+credit-card-fraud-detection/ ├── data/ │ └── creditcard.csv ├── notebooks/ │ ├── 1_EDA_and_Preprocessing.ipynb │ └── 2_Model_Evaluation.ipynb ├── requirements.txt └── README.md
 
 ## Dataset
 The project uses the Credit Card Fraud Detection dataset, which contains transactions made by European cardholders in September 2013. Key characteristics:
@@ -39,15 +29,15 @@ The project uses the Credit Card Fraud Detection dataset, which contains transac
 
 ## Installation
 1. Clone the repository:
-git clone https://github.com/yourusername/credit-card-fraud-detection.git
-cd credit-card-fraud-detection
+   git clone https://github.com/abhishekdeore/credit-card-fraud-detection.git
+   cd credit-card-fraud-detection
 
 2. Create and activate a virtual environment (optional but recommended):
-python -m venv venv
-source venv/bin/activate  # On Windows use venv\Scripts\activate
+   python -m venv venv
+   source venv/bin/activate  # On Windows use venv\Scripts\activate
 
 3. Install the required packages:
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 ## Usage
 1. Ensure the dataset file 'creditcard.csv' is placed in the 'data' folder.
