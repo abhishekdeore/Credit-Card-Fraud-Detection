@@ -3,9 +3,6 @@
 ## Overview
 This project implements advanced anomaly detection techniques to identify fraudulent credit card transactions. Using machine learning models, specifically Isolation Forest and Local Outlier Factor (LOF), the system detects unusual patterns that may indicate fraudulent activity in credit card usage.
 
-## Project Structure
-credit-card-fraud-detection/ ├── data/ │ └── creditcard.csv ├── notebooks/ │ ├── 1_EDA_and_Preprocessing.ipynb │ └── 2_Model_Evaluation.ipynb ├── requirements.txt └── README.md
-
 ## Dataset
 The project uses the Credit Card Fraud Detection dataset, which contains transactions made by European cardholders in September 2013. Key characteristics:
 - Total transactions: 284,807
